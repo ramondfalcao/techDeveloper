@@ -2,14 +2,13 @@ let filmes = ["Star wars","Clube da luta", "O poderoso chefão", "Top gun","Inte
 
 let cartoons = ["Toy story", "Procurando Nemo","Kung-fu Panda","Wally","Fortnite"]
 
-let todosFilmes = (adcionar)
 
 // console.log(filmes[1])
 
 function adcionar(){
-    const novoarray = filmes.unshift(cartoons);
-    return novoarray;
+    filmes.push(...cartoons);
+    return filmes;
 
 }
 
-console.log(todosFilmes);
+console.log(adcionar());
