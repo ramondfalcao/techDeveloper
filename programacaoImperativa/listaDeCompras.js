@@ -9,11 +9,10 @@ let oPrimeiro = nomes.shift();
 console.log(oPrimeiro)
 
 console.log("unshift /Insere os dados no começo do array.")
-
-console.log("push /Insere um dado no final do array.")
 nomes.unshift("Carne de Boi", "Sal"); 
 
-nomes.push(4);  // push /Insere um dado no final do array.
+console.log("push /Insere um dado no final do array.")
+nomes.push(4);  
 
 console.log(nomes);  
 
