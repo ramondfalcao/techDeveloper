@@ -2,6 +2,4 @@
 
 let filmesFavoritos = ['Kingsman', 'Harry Potter', 'I am legend'];
 
-filmesFavoritos[0];
-
 console.log(filmesFavoritos[0]);
