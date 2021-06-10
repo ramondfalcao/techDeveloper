@@ -7,8 +7,10 @@ let cartoons = ["Toy story", "Procurando Nemo","Kung-fu Panda","Wally","Fortnite
 
 function adcionar(){
     filmes.push(...cartoons);
+    filmes.pop();
     return filmes;
 
 }
+
 
 console.log(adcionar());
