@@ -48,7 +48,7 @@ h1{
     position: fixed;
 }
 
-.ednaldo > img:hover{
+.ednaldo > img{
     border: green;
     border-radius: 30%;
 }
