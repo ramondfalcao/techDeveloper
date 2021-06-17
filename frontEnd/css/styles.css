@@ -21,7 +21,6 @@ h1{
 }
 
 .items > li {
-    
     display: inline;
     margin: 30px;
     font-weight: bold;
