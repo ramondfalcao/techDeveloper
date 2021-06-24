@@ -4,6 +4,6 @@
 //     console.log("Olá,",nome,"!");
 // }
 // Arrow function 
-const digaOi = nome => console.log('Olá', nome,'!');
+let digaOi = nome => console.log('Olá', nome,'!');
 module.exports=digaOi;
 

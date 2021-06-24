@@ -1,3 +1,3 @@
-const digaOi = require('./importacoes');
+const digiaOi = require('./importacoes');
 
 digaOi('Ramond');
