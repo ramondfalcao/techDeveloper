@@ -1,0 +1,79 @@
+<!-- Formulário com no mínimo 3 campos com hover e transition.
+O formulário em si deve ter um keyframe com uma animação bem bacana e que vocês gostem (nosso exemplo fez com que ele surgisse de uma das bordas e centralizasse). Também utilize dois botões, um de submit e outro de reset com seu hover e transition também. Atenção ao google fonts, favicon, comentários, sintaxe e semântica! -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- HOVER -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/spotify (2).png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <title>Spotify</title>
+</head>
+<body>
+    <!-- Form -->
+    <form class="form" action="">
+        <!-- LOGO -->
+        <div class="caixo-logo">
+            <img class="logo" src="./img/logo_2x-removebg-preview.png" alt="Logo do Spotfy">
+        </div>
+        <!-- Titulo -->
+        <h1>Inscreva-se grátis e comece a curtir.</h1>
+        <!-- Butto Facebook -->
+        <div class="button">
+        <a href="https://www.facebook.com/" ><button class="button-face">Inscrever-se com o Facebook</button></a>
+        </div>
+        <!-- Termos -->
+        <div class="termos">
+        <label class="info" for="">Eu concordo com os Termos e Condições de Uso do Spotify</label>
+        <input class="checkbox" type="checkbox">
+        </div>
+        <!-- EMAIL -->
+        <div class="campos">
+            <label for="">Qual é o seu e-mail ?</label>
+            <input  type="email" id="email" name="email" placeholder="E-mail">
+        </div>
+        <!-- Confirme EMAIL -->
+        <div class="campos">
+            <label for="">Confirme seu e-mail</label>
+            <input  type="email" id="email" name="email" placeholder="Insira o email novamente">
+        </div>
+        <!-- SENHA -->
+        <div class="campos">
+            <label for="">Crie uma senha</label>
+            <input class="campos" type="password" id="senha" name="senha" placeholder="Senha">
+        </div>
+        <!-- NOME -->
+        <div class="campos">
+            <label for="">Como devemos chamar você ?</label>
+            <input class="campos" type="text" id="nome" name="nome" placeholder="Insira um nome de perfil">
+            <label class="info" for="">Isso será exibido no seu perfil</label>
+        </div>
+        <!-- DATA DE NASCIMENTO -->
+        <div class="campos">
+            <label for="">Qual a sua data de nascimento?</label>
+            <input class="data" type="date">
+        </div>
+        <!-- BUTTON -->
+        <div class="button">
+            <a href=""><button class="button-spotly">Inscreva-se</button></a>
+            </div>
+
+    </form>
+    
+</body>
+</html>

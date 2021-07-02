@@ -1,0 +1,27 @@
+
+
+
+.button-face:hover {
+    cursor: pointer;
+    background-color: rgb(22, 36, 240);
+    transition: 0.4s;
+    font-size: 20px;
+}    
+
+.checkbox:hover{
+    cursor: pointer;
+
+}
+
+input:hover{
+    background-color: rgb(30, 197, 38);
+    transition: 0.4s;
+}
+
+
+.button-spotly:hover{   
+    cursor: pointer;
+    background-color: rgb(30, 197, 38);     
+    font-size: 20px;
+  
+}
