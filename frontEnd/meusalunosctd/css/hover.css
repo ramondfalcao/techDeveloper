@@ -1,0 +1,15 @@
+.hvr-its:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: lightgray;
+    color: red;
+}
+
+.img-hvr:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 1em black;
+}
+
