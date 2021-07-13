@@ -48,7 +48,7 @@ var microondas = (comida, tempo) => {
             }
             break;
         case "Carne": //Carne-3s
-            if(tempo >= 30){
+            if(tempo > 30){
                 console.log("A comida queimou!!!")
             }else if(tempo < 15){
                 console.log("Tempo insuficiente")
@@ -72,9 +72,9 @@ var microondas = (comida, tempo) => {
         case "Brigadeiro": //Brigadeiro-8s
             if(tempo > 16){
                 console.log("A comida queimou!!!")
-            }else if(tempo < 8){
+            }else if(tempo <= 8){
                 console.log("Tempo insuficiente")
-            }else if(tempo > 24){
+            }else if(tempo >= 24){
                 console.log("Kabuummmm!!!!!")
             }else{
                 console.log("Prato pronto, bom apetite")
@@ -85,4 +85,4 @@ var microondas = (comida, tempo) => {
             break;
     }
 }
-    microondas("Carne", 30) 
+    microondas("Carne", 14) 
